@@ -1,0 +1,19 @@
+.tiche{
+    display: flex;
+    margin-top: 0%;
+}
+#titletiche h2{
+    margin-top: 140%;
+    color:gold;
+    margin-right: -435%;
+    height: 10%;
+}
+#titletiche{
+    height: 20%;
+}
+#texttiche{
+    text-align: center;
+    margin-top: 22%;
+    height: 10%;
+
+}

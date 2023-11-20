@@ -1,0 +1,28 @@
+footer{
+    background-color: #343434;
+    max-width: 100%;
+
+    
+}
+.redes{
+    text-align: center;
+    height: 10%;
+    width: 10%;
+    margin-left: 50%;
+    display: flex;
+
+}
+.contato{
+    width:10%;
+    height: 10%;
+    margin-left:88%;
+    text-align:center;
+}
+.sobre{
+    width: 10%;
+    height: 10%;
+
+}
+p{
+    color: white;
+}

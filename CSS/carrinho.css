@@ -1,0 +1,31 @@
+.imgcar{
+    width: 200px;
+    margin-left: 42.6%;
+    margin-top: 10%;
+}
+.comprar{
+    padding: 1%;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    margin-left: 43.5%;
+    margin-top: 4%;
+    margin-bottom: 9%;
+    background-color: #A1E961;
+    width: 11.5%;
+    height: 10%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.comprar:hover{
+    padding:1.3%;
+    background-color: white;
+    color:black;
+}
+.mensagem{
+    display: flex;
+    font-size: 40px;
+    margin-left: 37%;
+}

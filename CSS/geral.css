@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+}
+nav{
+
+    background-color: black;
+
+}
+#div_img{
+    display: flex;
+
+}
+
+
+.botoes{
+    margin-left: 85%;
+    position: absolute;
+    margin-top: -12%;
+    width: 91px;
+    height: 91px;
+    display: flex;
+}
+
+.search{
+    width: 100%;
+    margin-left: 25%;
+    margin-top: -9%;
+    height: 5%;
+    display:flex;
+    position: absolute;
+
+}
+
+.search input{
+    width: 45%;
+}
+ul{
+    text-align: center;
+  
+    
+}
+ul li{
+    
+    display: inline;
+    padding: 2%;
+}
+
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+.banner{
+    margin-top: 2%;
+}
+.banner img{
+    width: 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+h2{
+    color: black;
+    text-align: center;
+}
+h3{
+    color: #A1E961;
+}
+h4{
+    color: #A1E961;
+}
+h5{
+    color: white;
+}
+
+
