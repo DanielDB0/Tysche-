@@ -3,15 +3,18 @@ var idlogin;
 idlogin=0;
 
 
-alterarpag()
-{
-    if(idlogin === 1){
-        window.open("produto.html");
+function alterarpag(){
+    {
+        if(idlogin === 1){
+            window.open("produto.html");
+        }
+        else{
+            window.open("login.html");
+        };
     }
-    else{
-        window.open("login.html");
-    };
+
 }
+
 
 logar_cadastrar()
 {
