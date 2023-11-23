@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tyche</title>
     <link rel="stylesheet" href="CSS/estilo.css">
-    <link rel = "shortcut icon" href = "img/icone.png">
+    <link rel="shortcut icon" href="img/icone.png">
 </head>
+
 <body>
-    <div id = "container">
+    <div id="container">
         <div id="topo">
             <nav>
                 <div id="div_img">
-                    <img src = "img/icone.png">
+                    <img src="img/icone.png">
                 </div>
-                <div id = "barras">
-                    <div class = "search">
-                        <input type="text" placeholder="Pesquisar"/>
-                        <img src = "img/lupa.png">
+                <div id="barras">
+                    <div class="search">
+                        <input type="text" placeholder="Pesquisar" />
+                        <img src="img/lupa.png">
                     </div>
                     <ul>
-                        <li><a href = "masculino.html">masculino</a></li>
-                        <li><a href = "feminino.html">feminino</a></li>
-                        <li><a href = "infantil.html">infantil</a></li>
-                        <li><a href = "index.html">destaques</a></li>
-                        <li><a href = "#">ofertas</a></li>
+                        <li><a href="masculino.html">masculino</a></li>
+                        <li><a href="feminino.html">feminino</a></li>
+                        <li><a href="infantil.html">infantil</a></li>
+                        <li><a href="index.html">destaques</a></li>
+                        <li><a href="#">ofertas</a></li>
                     </ul>
                 </div>
-                <div class = "botoes">
-                    <a href = "carrinho.html" onclick = "alterarpag()"><img src ="img/carrinho.png" class = "imgnav"></a>
-                    <a href = "login.html"><img src ="img/logout.png" class="imgnav"></a>
+                <div class="botoes">
+                    <a href="carrinho.html" onclick="alterarpag()"><img src="img/carrinho.png" class="imgnav"></a>
+                    <a href="login.html"><img src="img/logout.png" class="imgnav"></a>
                 </div>
             </nav>
         </div>
-
         <div class="logintxt">
             <h1>Entre Na Sua Conta</h1>
             <h1>Ou</h1>
-            <h1>Cadastre-se Em Nossa Loja</h1>       
+            <h1>Cadastre-se Em Nossa Loja</h1>
         </div>
         <form>
-            <div id = "logincx">    
-                <div class = "logincxs">
+            <div id="logincx">
+                <div class="logincxs">
                     <h3 id>Email</h3>
-                    <div class = "logsenhacx">
-                        <input type="text" placeholder="Insira Seu Email" required/>
+                    <div class="logsenhacx">
+                        <input type="email" id="email" placeholder="Insira Seu Email" required />
                     </div>
                 </div>
-                <div class = "logincxs">
+                <div class="logincxs">
                     <h3 id>Senha</h3>
-                    <div class = "logsenhacx">
-                        <input type="password" placeholder="Insira Sua Senha" required/>
+                    <div class="logsenhacx">
+                        <input type="password" id="senha" placeholder="Insira Sua Senha" required />
                     </div>
                 </div>
-                <div class = "btnslog">
+                <div class="btnslog">
                     <button>Entrar</button>
                     <button>Cadastrar</button>
                 </div>
             </div>
         </form>
-        
-        
+
+
+
 
     </div>
-    <footer class="futa">
+    <footer>
         <div class="sobre">
-            <h1 id="futa-titu">Sobre Nós</h1>
-            <h3 id="futa-subtitu">Nossa Historia</h3>
-            <h3 id="futa-subtitu">Nossa Empresa</h3>
-            <h3 id="futa-subtitu">Nossos Produtos</h3>
+            <h3>Sobre Nós</h3>
+            <ul>
+                <li><a>Nossa História</a></li>
+                <li><a>Nossa Empresa</a></li>
+                <li><a>Nossos Produtos</a></li>
+            </ul>
         </div>
-
         <div class="redes">
-            <h1 id="futa-titu">Nossas Redes Sociais</h1>
-            <a href="#"><img src="img/twitter.svg"></a>
-            <a href="#"><img src="img/facebook.svg"></a>
-            <a href="#"><img src="img/tiktok.svg"></a>
-            <a href="#"><img src="img/instagram.svg"></a>
+            <h3>Redes Sociais</h3>
+            <ul>
+                <a><img src="img/instagram.png"></a>
+                <a><img src="img/x.png"></a>
+            </ul>
         </div>
-
         <div class="contato">
-            <h1 id="futa-titu">Entre Em Contato</h1>
-            <h3 id="green">Telefone de Suporte</h3>
-            <h3 id="futa-subtitu">+55 (11) 982469-1019</h3>
-            <h3 id="green">Email para Parceria</h3>
-            <h3 id="futa-subtitu">Tyche.parcer@gmail.com</h1>
+            <h3>Entre Em Contato</h3>
+            <h5>Telefone de Suporte</h5>
+            <h4>+55 (11) 982469-1019</h4>
+            <h5>Email para Parceria</h5>
+            <h4>Tyche.parcer@gmail.com</h4>
         </div>
-
-
     </footer>
 </body>
+
 </html>
